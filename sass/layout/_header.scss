@@ -7,30 +7,11 @@
   @extend %align-template;
 }
 
-.logo,
-.logo-web {
-  font-family: 'Raleway';
-  @include font(700, 26px, 1.19, 0.03em);
-
-  color: #000;
-
-  text-decoration: none;
-}
-
-.header .logo {
-  padding: 20px 0;
-  margin-right: 93px;
-}
-
-.logo-web {
-  color: var(--accent-color);
-}
-
-.nav-menu-list {
+.menu {
   display: flex;
 }
 
-.nav-menu-link {
+.menu__link {
   position: relative;
   display: block;
   padding: 32px 0;
@@ -58,16 +39,16 @@
   border-radius: 2px;
 }
 
-.header-contacts {
+.contacts {
   display: flex;
   margin-left: auto;
 }
 
-.header-contacts-item:not(:first-child) {
+.contacts__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.header-contacts-link {
+.contacts__link {
   @extend %align-template;
   padding: 25px 0;
 
@@ -84,7 +65,7 @@
   }
 }
 
-.header-contacts-icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }

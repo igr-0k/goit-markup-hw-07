@@ -2,7 +2,7 @@
   padding-bottom: 0;
 }
 
-.features-subtitle {
+.features__subtitle {
   margin-bottom: 10px;
 
   @include font(700, 14px, 1.14, 0.03em);
@@ -13,11 +13,11 @@
   @include font(400, 14px, 1.71, 0.03em);
 }
 
-.features-list {
+.features {
   display: flex;
 }
 
-.features-item {
+.features__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
