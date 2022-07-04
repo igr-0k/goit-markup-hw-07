@@ -318,11 +318,9 @@ img {
   color: var(--text-color);
   justify-content: center;
 }
-
 .privacy-text a {
   color: var(--accent-color);
 }
-
 .privacy-text span {
   width: 16px;
   height: 15px;
@@ -392,7 +390,6 @@ img {
   border-bottom: 1px solid #ececec;
   background-color: var(--w-color);
 }
-
 .menu {
   display: flex;
 }

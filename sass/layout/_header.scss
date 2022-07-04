@@ -1,11 +1,12 @@
 .header {
   border-bottom: 1px solid #ececec;
   background-color: var(--w-color);
+  .container {
+    @extend %align-template;
+  }
 }
 
-.header .container {
-  @extend %align-template;
-}
+
 
 .menu {
   display: flex;

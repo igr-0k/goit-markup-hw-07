@@ -152,31 +152,31 @@
 
   @extend %align-template;
   justify-content: center;
-}
 
-.privacy-text a {
-  color: var(--accent-color);
-}
-
-.privacy-text span {
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--title-color);
-  border-radius: 2px;
-  margin-right: 8px;
-  @extend %align-template;
-  justify-content: center;
-
-  transition-property: border-color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .input-check:checked + & {
-    background-color: var(--accent-color);
-    border: none;
+  a {
+    color: var(--accent-color);
   }
 
-  .input-check:focus + & {
-    border-color: var(--accent-color);
+  span {
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--title-color);
+    border-radius: 2px;
+    margin-right: 8px;
+    @extend %align-template;
+    justify-content: center;
+
+    transition-property: border-color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    .input-check:checked + & {
+      background-color: var(--accent-color);
+      border: none;
+    }
+
+    .input-check:focus + & {
+      border-color: var(--accent-color);
+    }
   }
 }
 
